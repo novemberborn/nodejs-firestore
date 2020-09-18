@@ -4,6 +4,20 @@
 
 [1]: https://www.npmjs.com/package/@google-cloud/firestore?activeTab=versions
 
+## [4.3.0](https://www.github.com/googleapis/nodejs-firestore/compare/v4.2.0...v4.3.0) (2020-09-18)
+
+
+### Features
+
+* add support for != and not-in queries ([#1292](https://www.github.com/googleapis/nodejs-firestore/issues/1292)) ([786e52f](https://www.github.com/googleapis/nodejs-firestore/commit/786e52f8c8b7b9c6b84ffc988190470a063d5855))
+* Build query/document mapping in bundles. ([#1280](https://www.github.com/googleapis/nodejs-firestore/issues/1280)) ([9cd53be](https://www.github.com/googleapis/nodejs-firestore/commit/9cd53be4a7f37b8d1f61a1b8567fa8b7ccce0e3e))
+
+
+### Bug Fixes
+
+* add capacity logging to RateLimiter ([#1287](https://www.github.com/googleapis/nodejs-firestore/issues/1287)) ([befe625](https://www.github.com/googleapis/nodejs-firestore/commit/befe625f35b7c96e9a90399a1ca71a8a049224ad))
+* correct BulkWriter types in firestore.d.ts ([#1284](https://www.github.com/googleapis/nodejs-firestore/issues/1284)) ([382128b](https://www.github.com/googleapis/nodejs-firestore/commit/382128b83de01cc0f88110393a1271b8d768509e))
+
 ## [4.2.0](https://www.github.com/googleapis/nodejs-firestore/compare/v4.1.2...v4.2.0) (2020-07-31)
 
 
